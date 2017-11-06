@@ -1,0 +1,21 @@
+= Build Frameworks Group
+:keywords: build, c++, library
+:copyright: Copyright 2017 Rene Rivera
+:reproducible:
+:source-highlighter: highlightjs
+:source-language: c++
+:toc: right
+:toc-title: BFG
+
+We are a group of developers writing software solutions to solve common
+software building problems. Our goal is to provide a highliy reused set
+of components that advances software buiding technology.
+
+== Projects
+
+=== `std_cpp`
+
+This is library proposes to standardize the build interface for compiling
+C++ source. This is both a specification and an impementation proof. As
+such it provides both a library that can be used to build upon and a
+minimal `std_cpp` tool for some common C++ compilers.
