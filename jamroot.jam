@@ -12,11 +12,20 @@ project bfg
     : build-dir bin
     ;
 
-html index.html : home.adoc ;
+html footer-cc : footer-cc.adoc ;
+html docinfo-footer : footer.adoc : <implicit-dependency>footer-cc ;
+
+install docinfo
+    :   docinfo-footer
+    :   <location>src
+    ;
+
+html index
+    :   home.adoc
+    :   <dependency>docinfo
+    ;
 
 install html
-    :
-        index.html
-    :
-        <location>docs
+    :   index
+    :   <location>docs
     ;

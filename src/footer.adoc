@@ -1,0 +1,9 @@
+:doctype: inline
+
+++++
+<div id="footer">
+<div id="footer-text">
+include::../bin/asciidoctor-backend-html5/footer-cc.html[]
+</div>
+</div>
+++++
