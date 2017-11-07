@@ -19,3 +19,5 @@ This is library proposes to standardize the build interface for compiling
 C++ source. This is both a specification and an impementation proof. As
 such it provides both a library that can be used to build upon and a
 minimal `std_cpp` tool for some common C++ compilers.
+
+* Source and proporal in https://github.com/bfgroup/std_cpp[GitHub project].
