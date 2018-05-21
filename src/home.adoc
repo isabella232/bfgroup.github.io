@@ -25,3 +25,14 @@ such it provides both a library that can be used to build upon and a
 minimal `std_cpp` tool for some common C++ compilers.
 
 * Source and proposal in https://github.com/bfgroup/std_cpp[GitHub project].
+
+=== `conan-b2gen`
+
+This Conan package is a full feature generator for the `B2` build system.
+It's a multi-generator that respects the multi-variant nature of `B2` while
+making it easy to use Conan.
+
+* Documentation and usage is at the
+  https://github.com/bfgroup/conan-b2gen[GitHub project].
+* You can install it directly by using the
+  https://bintray.com/bfgroup/public-conan[bfgroup Bintray Conan repository].

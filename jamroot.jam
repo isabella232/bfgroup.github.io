@@ -13,17 +13,23 @@ project bfg
     ;
 
 html footer-cc : footer-cc.adoc ;
-html docinfo-footer : footer.adoc : <implicit-dependency>footer-cc ;
+explicit footer-cc ;
+
+html docinfo-footer : footer.adoc
+    : <implicit-dependency>footer-cc <dependency>footer-cc ;
+explicit docinfo-footer ;
 
 install docinfo
     :   docinfo-footer
     :   <location>src
     ;
+explicit docinfo ;
 
 html index
     :   home.adoc
     :   <dependency>docinfo
     ;
+explicit index ;
 
 install html
     :   index
