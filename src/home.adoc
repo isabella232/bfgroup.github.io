@@ -1,6 +1,6 @@
 = Build Frameworks Group
 :keywords: build, c++, library
-:copyright: Copyright 2017 Rene Rivera
+:copyright: Copyright 2017-2018 Rene Rivera
 :reproducible:
 :source-highlighter: highlightjs
 :source-language: c++
@@ -12,7 +12,7 @@
 :nofooter:
 
 We are a group of developers writing software solutions to solve common
-software building problems. Our goal is to provide a highliy reused set
+software building problems. Our goal is to provide a highly reused set
 of components that advances software buiding technology.
 
 == Projects
@@ -36,3 +36,12 @@ making it easy to use Conan.
   https://github.com/bfgroup/conan-b2gen[GitHub project].
 * You can install it directly by using the
   https://bintray.com/bfgroup/public-conan[bfgroup Bintray Conan repository].
+
+=== `jam_pygments`
+
+A Jam/B2 build description language lexer for Pygments. This allows syntax
+coloring of Jam/B2 source code for any tool that uses the Pygments module.
+Which includes Asciidoctor with the appropriate extension.
+
+* You can find documentation and usage at the
+  https://github.com/bfgroup/jam_pygments[GitHub project].
