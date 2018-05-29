@@ -13,14 +13,14 @@
 
 We are a group of developers writing software solutions to solve common
 software building problems. Our goal is to provide a highly reused set
-of components that advances software buiding technology.
+of components that advances software building technology.
 
 == Projects
 
 === `std_cpp`
 
 This is library proposes to standardize the build interface for compiling
-C++ source. This is both a specification and an impementation proof. As
+C++ source. This is both a specification and an implementation proof. As
 such it provides both a library that can be used to build upon and a
 minimal `std_cpp` tool for some common C++ compilers.
 
