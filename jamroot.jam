@@ -22,6 +22,7 @@ explicit docinfo-footer ;
 install docinfo
     :   docinfo-footer
     :   <location>src
+        <dependency>docinfo.html
     ;
 explicit docinfo ;
 
@@ -31,7 +32,19 @@ html index
     ;
 explicit index ;
 
+install img
+    :   img/logo-180.png
+        img/logo-64.png
+    :   <location>docs/img
+    ;
+explicit img ;
+
 install html
     :   index
     :   <location>docs
+    ;
+explicit html ;
+
+alias www
+    : html img
     ;
