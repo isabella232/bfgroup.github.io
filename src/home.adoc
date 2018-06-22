@@ -10,6 +10,7 @@
 :docinfo: shared
 :docinfo-dir: ../bin/asciidoctor-backend-html5
 :nofooter:
+:CPP: C++
 
 We are a group of developers writing software solutions to solve common
 software building problems. Our goal is to provide a highly reused set
@@ -20,9 +21,9 @@ of components that advances software building technology.
 === `std_cpp`
 
 This is library proposes to standardize the build interface for compiling
-C++ source. This is both a specification and an implementation proof. As
+{CPP} source. This is both a specification and an implementation proof. As
 such it provides both a library that can be used to build upon and a
-minimal `std_cpp` tool for some common C++ compilers.
+minimal `std_cpp` tool for some common {CPP} compilers.
 
 * Source and proposal in https://github.com/bfgroup/std_cpp[GitHub project].
 
