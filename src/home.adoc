@@ -1,6 +1,6 @@
 = Build Frameworks Group
 :keywords: build, c++, library
-:copyright: Copyright 2017-2018 Rene Rivera
+:copyright: Copyright 2017-2019 Rene Rivera
 :reproducible:
 :source-highlighter: highlightjs
 :source-language: c++
@@ -10,7 +10,43 @@
 :docinfo: shared
 :docinfo-dir: ../bin/asciidoctor-backend-html5
 :nofooter:
+:caution-caption: ⚑
+:important-caption: ‼
+:note-caption: ℹ
+:tip-caption: ☀
+:warning-caption: ⚠
 :CPP: C++
+
+ifdef::backend-html5[]
+++++
+<style>
+#toc.toc2 {
+    background-color: #d8d8d7;
+    border-right-color: #b7b7b9;
+}
+.admonitionblock .icon .title {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
+.caution .icon .title {
+    color: rgba(192, 51, 0, 1);
+}
+.important .icon .title {
+    color: rgba(192, 0, 0, 1);
+}
+.note .icon .title {
+    color: rgba(26, 64, 128, 1);
+}
+.tip .icon .title {
+    color: rgba(255, 192, 0, 1);
+}
+.warning .icon .title {
+    color: rgba(192, 102, 0, 1);
+}
+</style>
+++++
+endif::[]
+
 
 We are a group of developers writing software solutions to solve common
 software building problems. Our goal is to provide a highly reused set
@@ -18,7 +54,25 @@ of components that advances software building technology.
 
 == Projects
 
-=== `std_cpp`
+=== Lyra
+
+A simple to use, composing, command line parser for C++ 11 and beyond.
+The header only library makes creating and using common cases of command lines
+easy and natural.
+
+* Check out the link:https://bfgroup.github.io/Lyra/[web-site] for more
+  information.
+
+=== {CPP} Tooling Statistics
+
+Here we collect and present a variety of performance metrics for {CPP} tools.
+The goal is to illuminate the current state of the {CPP} tooling ecosystem to
+inform future directions for improvements.
+
+* Read about the statistics in the
+  link:https://bfgroup.github.io/cpp_tooling_stats/[web-site].
+
+=== std_cpp
 
 This is library proposes to standardize the build interface for compiling
 {CPP} source. This is both a specification and an implementation proof. As
@@ -27,7 +81,19 @@ minimal `std_cpp` tool for some common {CPP} compilers.
 
 * Source and proposal in https://github.com/bfgroup/std_cpp[GitHub project].
 
-=== `conan-b2gen`
+=== jam_pygments
+
+A Jam/B2 build description language lexer for Pygments. This allows syntax
+coloring of Jam/B2 source code for any tool that uses the Pygments module.
+Which includes Asciidoctor with the appropriate extension.
+
+* You can find documentation and usage at the
+  https://github.com/bfgroup/jam_pygments[GitHub project].
+
+=== conan-b2gen
+
+NOTE: This project is now dormant as it was merged into the Conan mainline
+release. It's here for historical reference.
 
 This Conan package is a full feature generator for the `B2` build system.
 It's a multi-generator that respects the multi-variant nature of `B2` while
@@ -37,12 +103,3 @@ making it easy to use Conan.
   https://github.com/bfgroup/conan-b2gen[GitHub project].
 * You can install it directly by using the
   https://bintray.com/bfgroup/public-conan[bfgroup Bintray Conan repository].
-
-=== `jam_pygments`
-
-A Jam/B2 build description language lexer for Pygments. This allows syntax
-coloring of Jam/B2 source code for any tool that uses the Pygments module.
-Which includes Asciidoctor with the appropriate extension.
-
-* You can find documentation and usage at the
-  https://github.com/bfgroup/jam_pygments[GitHub project].

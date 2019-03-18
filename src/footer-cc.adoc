@@ -1,4 +1,4 @@
 :doctype: inline
 
-Copyright 2017-2018 Rene Rivera.
+Copyright 2017-2019 Rene Rivera.
 Content licensed under https://creativecommons.org/licenses/by/4.0/[CC BY 4.0]
