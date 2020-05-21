@@ -63,6 +63,16 @@ easy and natural.
 * Check out the link:https://bfgroup.github.io/Lyra/[web-site] for more
   information.
 
+=== CI Playground
+
+In a single repository we collect, and experiment, with building a C++
+program in a variety of Cloud Continuous Integration *free* providers.
+We hope to make it easier to get people using the large number of free
+build and testing resources available to Open Source Software authors.
+
+* For periodic releases and the living demonstration see the repo at
+  the https://github.com/bfgroup/ci_playground[GitHub project].
+
 === {CPP} Tooling Statistics
 
 Here we collect and present a variety of performance metrics for {CPP} tools.
