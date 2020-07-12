@@ -1,6 +1,6 @@
 = Build Frameworks Group
 :keywords: build, c++, library
-:copyright: Copyright 2017-2019 Rene Rivera
+:copyright: Copyright 2017-2020 René Ferdinand Rivera Morell
 :reproducible:
 :source-highlighter: highlightjs
 :source-language: c++
@@ -53,6 +53,14 @@ software building problems. Our goal is to provide a highly reused set
 of components that advances software building technology.
 
 == Projects
+
+=== Duck Invoke
+
+AA simple to use, single header, `tag_invoke` utility for C++11.
+
+* Check out the link:https://github.com/bfgroup/duck_invoke[repository] or
+  link:https://bfgroup.github.io/duck_invoke/[documentation] for more
+  information.
 
 === Lyra
 
