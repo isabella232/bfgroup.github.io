@@ -1,4 +1,4 @@
 :doctype: inline
 
-Copyright 2017-2020 René Ferdinand Rivera Morell.
+Copyright 2017-2021 René Ferdinand Rivera Morell.
 Content licensed under https://creativecommons.org/licenses/by/4.0/[CC BY 4.0]
