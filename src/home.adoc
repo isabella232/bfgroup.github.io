@@ -24,7 +24,7 @@ of components that advances software building technology.
 == B2
 
 B2 makes it easy to build C++ projects, everywhere. B2 has been the primary
-build system for the link:https://boost.org/[Boost C++ Libraries] for many
+build system for the link:https://boost.org/[Boost {CPP} Libraries] for many
 years. The main development now lives here at BFG in order to grow the
 audience outside of Boost.
 
